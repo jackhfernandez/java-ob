@@ -10,6 +10,30 @@ public class Funciones {
 
     double price = getPrice();
     System.out.println(price);
+
+    // Opcion 3: // funcion con parametro y sin tipo de retorno
+    imprimirSaludo("OpenBootcamp");
+
+    // Opcion 4: // funcion con parametro y con tipo de retorno
+    String nombre = "Jack";
+    String apellido = "Fernandez";
+    String saludo = recibirSaludo(nombre, apellido);
+    System.out.println(saludo);
+
+    int resultadoSuma = suma(5,8);
+    System.out.println(resultadoSuma);
+  }
+
+  static int suma(int a, int b){
+    return a+b;
+  }
+
+  static String recibirSaludo(String nombre, String apellido){
+    return "Buenas tardes " + nombre + " " + apellido;
+  }
+
+  static void imprimirSaludo(String nombre){
+    System.out.println("Buenas tardes " + nombre);
   }
 
   static double getPrice() {
