@@ -1,4 +1,4 @@
-package com.example;
+package com.example.holamundo;
 
 /**
  * Clase de prueba para crear un Hola mundo
