@@ -7,6 +7,7 @@
     <list default="true" id="66952e11-80d7-484b-9d5b-3c2035fd26b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/poo/clases/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/clases/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/clases/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/clases/Vehiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
