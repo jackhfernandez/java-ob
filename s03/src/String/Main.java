@@ -41,7 +41,7 @@ public class Main {
     }
 */
     // Recorrer una cadena inversa
-    String reversa = "";
+    java.lang.String reversa = "";
     for (int i=cadena.length() -1 ; i>=0; i--){
       reversa += cadena.charAt(i);
     }
