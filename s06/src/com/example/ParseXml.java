@@ -26,7 +26,7 @@ public class ParseXml {
         String clave = document.getElementsByTagName("clave").item(0).getTextContent();
 
         // Mostramos usuario y clave
-        System.out.println("Usuario " + usuario + " Clave " + clave);
+        System.out.println("Usuario: " + usuario + " | Clave: " + clave);
 
         // Mostrar el atributo proveedor
         NamedNodeMap atributos = document.getElementsByTagName("videos").item(0).getAttributes();
@@ -35,7 +35,7 @@ public class ParseXml {
           String atributoNombre = atributos.item(i).getNodeName();
           String atributoValor = atributos.item(i).getNodeValue();
 
-          System.out.println("Atributo " + atributoNombre + " contiene " + atributoValor);
+          System.out.println(" Atributo: " + atributoNombre + "   | Contiene: " + atributoValor);
         }
 
         // Mostramos los videos asociados que hay
