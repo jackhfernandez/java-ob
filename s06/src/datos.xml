@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<credenciales>
+    <usuario>openbootcamp</usuario>
+    <clave>EstoEs1clave^-^</clave>
+    <videos proveedor="vimeo" bootcamp="open-bootcamp">
+        <video>Primera sesion</video>
+        <video>Segunda sesion</video>
+        <video>Tercera sesion</video>
+    </videos>
+</credenciales>
